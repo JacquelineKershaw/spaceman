@@ -58,3 +58,6 @@ input.onButtonPressed(Button.A, function () {
     music.rest(music.beat(BeatFraction.Quarter))
     music.playTone(220, music.beat(BeatFraction.Double))
 })
+input.onGesture(Gesture.Shake, function () {
+    basic.showString("Spaceman by Sam Ryder")
+})
